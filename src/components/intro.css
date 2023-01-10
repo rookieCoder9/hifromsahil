@@ -1,0 +1,121 @@
+.container {
+   gap:2rem;
+   padding-top: 3rem;
+    position: relative;
+  
+    height: 65vh
+}
+
+#top {
+    transition: color 2s ease !important;
+    height:100vh;
+}
+
+.flex-col {
+   
+    
+    display: flex;
+ flex-direction: column; 
+}
+.flex-row {
+
+    gap:10px;
+    display: flex;
+ flex-direction: row; 
+}
+.content-box {
+    flex:1;
+    margin:auto auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin:auto auto;
+    
+    align-items: flex-start;
+}
+.icons-div {
+    flex:1;
+    font-size: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:auto auto;
+}
+.icon-1 {
+   
+    cursor:auto;
+    font-weight: bolder;
+    -webkit-transition: fill 3s;
+    transition: fill 3s ease;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+.icon-1:hover {
+     cursor:auto;
+    -webkit-transition: fill 0s;
+  transition: fill 0s;
+    fill:#ff787d!important;
+
+
+}
+.icon-2 {
+   
+   
+    font-weight: bolder;
+    -webkit-transition: fill 3s;
+    transition: fill 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+.icon-2:hover {
+    cursor:auto;
+    
+    -webkit-transition: fill 0s;
+  transition: fill 0s;
+    fill:#ffe484 !important;
+
+
+}
+.icon-3 {
+   
+    cursor:auto;
+    font-weight: bolder;
+    -webkit-transition: fill 3s;
+    transition: fill 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+.icon-3:hover {
+    cursor:auto;
+    -webkit-transition: fill 0s;
+  transition: fill 0s;
+    fill:#b4fafa !important;
+
+
+}
+.light-mode {
+    
+    color:black;
+    fill:white;
+    background-color: white;
+}
+.dark-mode {
+   
+    color:white;
+    fill:black;
+    background-color: black;
+
+}
+a {
+    
+    text-decoration: none;
+    cursor:default;
+
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        height:100vh;
+    }
+   
+}

@@ -1,0 +1,182 @@
+.span-1{
+    cursor:default;
+    font-size: 4rem;
+    font-weight: bolder;
+    -webkit-transition: color 3s;
+    transition: color 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+     
+}
+.span-1:hover {
+    cursor:default;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+
+    color: #ff787d;
+  
+   
+}
+.name {
+   
+ 
+    
+    -webkit-transition: color 3s;
+    transition: color 3s;
+      -webkit-transition-delay: 1s;
+      transition-delay: 1s;
+
+}
+.name:hover {
+    -webkit-transition: color 0s;
+    transition: color 0s;
+   
+     
+    
+
+}
+.span-2{
+    cursor:default;
+    font-size: 4rem;
+      font-weight: bolder;
+      -webkit-transition: color 3s;
+      transition: color 3s;
+      -webkit-transition-delay: 1s;
+      transition-delay: 1s;
+       
+  }
+  .span-2:hover {
+    cursor:default;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+   
+    color: #b4fafa;
+    
+     
+  }
+
+  .span-3{
+    cursor:default;
+    font-size: 4rem;
+    font-weight: bolder;
+    -webkit-transition: color 3s;
+    transition: color 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+     
+}
+.span-3:hover {
+    cursor:default;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+
+   
+    color: #ffaa79;
+  
+   
+}
+.span-4{
+    cursor:default;
+    font-size: 4rem;
+    font-weight: bolder;
+    -webkit-transition: color 3s;
+    transition: color 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+     
+}
+.span-4:hover {
+    cursor:default;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+
+    color: #ffe484;
+  
+   
+}
+.span-5{
+    cursor:default;
+    font-size: 4rem;
+    font-weight: bolder;
+    -webkit-transition: color 3s;
+    transition: color 3s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+     
+}
+.span-5:hover {
+    cursor:default;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+
+   
+    color:#efb1ed;
+  
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .span-1{
+        cursor:default;
+        font-size: 8vw;
+     
+         
+    }
+    .span-2{
+        cursor:default;
+        font-size: 8vw;
+
+         
+    }
+    
+    .span-3{
+        cursor:default;
+        font-size: 8vw;
+    
+    }
+    .span-4{
+        cursor:default;
+        font-size: 8vw;
+      
+         
+    }
+    .span-5{
+        cursor:default;
+        font-size: 8vw;
+      
+    }
+  }
+
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+    .span-1{
+   
+        font-size: 8vw;
+      
+         
+    }
+    .span-2{
+   
+        font-size: 8vw;
+    
+         
+    }
+    .span-3{
+   
+        font-size: 8vw;
+   
+         
+    }
+    .span-4{
+   
+        font-size: 8vw;
+     
+         
+    }
+    .span-5{
+   
+        font-size: 8vw;
+     
+         
+    }
+  }
